@@ -60,7 +60,7 @@
         app:layout_constraintVertical_bias="0.258" />
 
     <Button
-        android:id="@+id/button"
+        android:id="@+id/btnIngresar"
         android:layout_width="114dp"
         android:layout_height="57dp"
         android:backgroundTint="#6072F1"
@@ -71,11 +71,13 @@
         app:layout_constraintHorizontal_bias="0.498"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.925"
+        app:layout_constraintVertical_bias="0.956"
+        android:onClick="ingresar"
+
         />
 
     <EditText
-        android:id="@+id/editTextText"
+        android:id="@+id/txtuser"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:backgroundTint="#EDEDED"
@@ -96,18 +98,13 @@
         app:layout_constraintVertical_bias="0.402" />
 
     <EditText
-        android:id="@+id/editTextText"
+        android:id="@+id/txtpws"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:backgroundTint="#EDEDED"
-        android:backgroundTintMode="src_over"
-        android:breakStrategy="simple"
-        android:drawableTint="#E8D8D8"
         android:ems="10"
-        android:foregroundTint="#FAF1F1"
-        android:hint="Password"
+        android:hint="password"
         android:inputType="text"
-        android:password="false"
+        android:password="true"
         android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"

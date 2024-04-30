@@ -1,5 +1,6 @@
 package ethan.herniquez.emulador_20230006_ethan
 
+import android.content.Intent
 import android.os.Bundle
 import android.view.View
 import android.widget.Button
@@ -11,6 +12,7 @@ import androidx.navigation.ui.AppBarConfiguration
 import androidx.navigation.ui.setupActionBarWithNavController
 import androidx.navigation.ui.setupWithNavController
 import ethan.herniquez.emulador_20230006_ethan.databinding.ActivityMainBinding
+
 
 class MainActivity : AppCompatActivity() {
 
@@ -32,6 +34,8 @@ class MainActivity : AppCompatActivity() {
         setupActionBarWithNavController(navController, appBarConfiguration)
         navView.setupWithNavController(navController)
 
+
+
     }
     fun onClick(view: View){
         Toast.makeText( this, "Hola soy Ethan David Henriquez Díaz", Toast.LENGTH_LONG).show()
@@ -39,4 +43,11 @@ class MainActivity : AppCompatActivity() {
     fun correo(view: View){
        Toast.makeText(this, "20230006@ricaldone.edu.sv", Toast.LENGTH_LONG).show()
     }
+
+
+
+
+
+
 }
+/*jh*/
