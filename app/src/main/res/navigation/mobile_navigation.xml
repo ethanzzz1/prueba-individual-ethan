@@ -27,4 +27,9 @@
         android:name="ethan.herniquez.emulador_20230006_ethan.Contactanos"
         android:label="Contáctanos"
         tools:layout="@layout/fragment_contactanos" />
+    <fragment
+        android:id="@+id/login"
+        android:name="ethan.herniquez.emulador_20230006_ethan.Login"
+        android:label="Login"
+        tools:layout="@layout/fragment_login" />
 </navigation>
